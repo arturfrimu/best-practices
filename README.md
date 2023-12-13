@@ -1,5 +1,5 @@
 # Best practices
- 
+
 #### When you find yourself writing nearly repeated code, try to abstract instead.
 
 #### DRY (don’t repeat yourself)
@@ -13,3 +13,5 @@
 # Facts
 
 #### Boxed values are a wrapper around primitive types and are stored on the heap.
+
+#### Therefore, boxed values use more memory and require additional memory lookups to fetch the wrapped primitive value.

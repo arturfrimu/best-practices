@@ -9,3 +9,7 @@
 #### Behavior parameterization: The ability to tell a method to take multiple behaviors (or strategies) as parameters and use them inter-nally to accomplish different behaviors.
 
 #### You need abstract over behavior and make your code adapt to require-ment changes
+
+# Facts
+
+#### Boxed values are a wrapper around primitive types and are stored on the heap.

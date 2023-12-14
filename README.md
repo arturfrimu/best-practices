@@ -29,3 +29,10 @@
 |BiPredicate<T, U> |(T,U)->boolean|
 |BiConsumer<T, U>|(T,U)->void|
 |BiFunction<T, U, R>| (T,U)->R|
+
+#### Type inference
+
+| Interface      | Signature                                                                               |
+|----------------|-----------------------------------------------------------------------------------------|
+|Without type inference| Comparator<Apple> c = (Apple a1, Apple a2) -> a1.getWeight().compareTo(a2.getWeight()); |
+|With type inference| Comparator<Apple> c = (a1, a2) -> a1.getWeight().compareTo(a2.getWeight());             |

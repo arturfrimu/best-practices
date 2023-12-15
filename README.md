@@ -21,6 +21,9 @@ means you can add new functionality without changing existing code.
 
 #### Liskov Substitution
 
+Objects of a superclass should be replaceable with objects of its subclasses without affecting the correctness of the
+program.
+
 #### Interface Segregation
 
 #### Dependency Inversion

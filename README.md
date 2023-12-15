@@ -16,6 +16,9 @@ A class should have only one reason to change, meaning it should have only one j
 
 #### Open/Closed
 
+Software entities (classes, modules, functions, etc.) should be open for extension but closed for modification. This
+means you can add new functionality without changing existing code.
+
 #### Liskov Substitution
 
 #### Interface Segregation

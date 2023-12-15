@@ -10,6 +10,16 @@
 
 #### You need abstract over behavior and make your code adapt to require-ment changes
 
+#### Single Responsibility
+
+#### Open/Closed
+
+#### Liskov Substitution
+
+#### Interface Segregation
+
+#### Dependency Inversion
+
 # Facts
 
 #### Boxed values are a wrapper around primitive types and are stored on the heap.

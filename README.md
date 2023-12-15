@@ -26,6 +26,9 @@ program.
 
 #### Interface Segregation
 
+Clients should not be forced to depend on interfaces they do not use. This means having several specific interfaces is
+better than one general-purpose interface.
+
 #### Dependency Inversion
 
 # Facts

@@ -31,6 +31,9 @@ better than one general-purpose interface.
 
 #### Dependency Inversion
 
+High-level modules should not depend on low-level modules; both should depend on abstractions. Additionally,
+abstractions should not depend on details; details should depend on abstractions.
+
 # Facts
 
 #### Boxed values are a wrapper around primitive types and are stored on the heap.
